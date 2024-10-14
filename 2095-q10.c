@@ -9,7 +9,7 @@ int main(){
 	int copy = n-1;
 	for( i=0;i<n;i++){
 		printf("Enter letter for index %d :",i);
-		scanf(" %c",&pal);
+		scanf(" %c",&pal[i]);
 	}
 	for( j =0;j<n;j++){
 		if(pal[j]==pal[copy]){
@@ -20,5 +20,3 @@ int main(){
 	printf("no");
 		}
 	}
-}
-
