@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+int swaper(int a,int b){
+	int c=a;
+	a=b;
+	b=c;
+	printf("swap values of a is %d and b is %d",a,b);
+}
+int main(){
+	int a,b;
+	printf("Enter a: ");
+	scanf("%d",&a);
+	printf("Enter b: ");
+	scanf("%d",&b);
+	swaper(a,b);
+	
+}
